@@ -160,7 +160,7 @@ export default function Home() {
               if (loading) {
                 return;
               }
-              setPage((prev) => Math.max(prev - 1, 0));
+              setPage((prev) => Math.max(prev - 1, 1));
             }}
           >
             Prev
